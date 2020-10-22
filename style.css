@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  background: rgb(211, 211, 211);
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  border-bottom: solid 2px #6e6666;
+  height: 40px;
+}
+
+header .brand-name {
+  font-size: 25px;
+}
+header a {
+  font-size: 25px;
+  padding: 0px 8px;
+  color: #0ebbbb;
+  text-decoration: none;
+  /* padding: 0 5px 0 5px; */
+}
+.main-section {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.left-section {
+  width: 65%;
+}
+
+.left-section .top-bar {
+  width: 100%;
+  display: flex;
+}
+
+.left-section .top-bar span {
+  padding: 10px 25px;
+  border-left: solid 2px #1eaca5;
+  border-top: solid 2px #1eaca5;
+  border-bottom: solid 2px #1eaca5;
+  color: #1eaca5;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  background: #fff;
+}
+
+.left-section .top-bar span:hover {
+  background: #1eaca5;
+  color: #fff;
+}
+
+.left-section .top-bar span:last-child {
+  border-right: solid 2px #1eaca5;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.left-section .top-bar span:first-child {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.search-box input[type='text'] {
+  width: 100%;
+  margin-top: 12px;
+  height: 31px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: solid 2px;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu .card {
+  width: 20%;
+  margin: 0 10px;
+  height: 200px;
+  margin-top: 10px;
+  /* border: solid 1px #000; */
+  border-bottom: solid 5px rgb(94, 52, 52);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.4s ease-in-out;
+  background: #fff;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.1);
+}
