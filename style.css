@@ -24,6 +24,7 @@ header a {
 .main-section {
   margin-top: 10px;
   padding-left: 10px;
+  display: flex;
 }
 .left-section {
   width: 65%;
@@ -93,4 +94,56 @@ header a {
 }
 .card:hover {
   transform: scale(1.1);
+}
+
+.right-section {
+  margin-left: 10px;
+  width: 30%;
+  background: #fff;
+  position: relative;
+}
+.items-section h4 {
+  padding: 10px;
+  border-bottom: solid 1px #888;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  border-bottom: solid 1px #888;
+  margin: 14px 0;
+  padding: 10px;
+
+}
+.taxes {
+  display: flex;
+  justify-content: space-between;
+  color: #888;
+  padding: 10px;
+}
+
+.bottom-section {
+  margin-top: 10px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.bottom-section button {
+  /* height: 40px; */
+  padding: 15px 20px;
+  cursor: pointer;
+  width: 50%;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+}
+
+.bottom-section button:first-child {
+  background: #0ebbbb;
+}
+
+.bottom-section button:last-child {
+  background-color: #48AB6C;
 }
