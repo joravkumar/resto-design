@@ -101,6 +101,7 @@ header a {
   width: 30%;
   background: #fff;
   position: relative;
+  min-height: 600px;
 }
 .items-section h4 {
   padding: 10px;
